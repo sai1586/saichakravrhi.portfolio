@@ -5,6 +5,10 @@
   <title>My Resume</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="p-4">
@@ -62,7 +66,7 @@
             <table class="text-justify">
               <tbody>
                 <tr>
-                  <td><b>Tools:</b> Jenkins, GIT, Spinnaker, Artifactory, JIRA, Confluence</td>
+                  <td><b>Tools:</b> <a href="Certficates/Jenkins.jpg" data-toggle="modal" data-target="#Jenkins">jenkins</a>, <a href="Certficates/GitHub.jpg" data-toggle="modal" data-target="#git">git</a>, Spinnaker, Artifactory, JIRA, Confluence</td>
                 </tr>
                 <tr>
                   <td><b>Cloud Native Platform:</b> Docker,Azure (Basic's)</td>
@@ -85,9 +89,10 @@
         <h2>Certifications</h2>
         <ul>
           <li>Currently learning <b>AWS advanced</b> Course in linked</li>
-          <li>Linkedin Course on <b>Docker, Kubernetes, Git, </b>and <b>Jenkins</b>        </li>
-          <li>Udemy Course on <b>Python</b></li>
-          <li>Web Development Certification</li>
+          <!--Certficates popup -->
+          <li>Udemy Course on <b><a href="Certficates/python.jpg" data-toggle="modal" data-target="#python">Python</a></b></li>
+          <li>Linkedin Course on <b><a href="Certficates/Jenkins.jpg" data-toggle="modal" data-target="#jenkins">jenkins</a></b><d>,Kubernetes, <a href="Certficates/GitHub.jpg" data-toggle="modal" data-target="#git">git</a>, </b>and <b></b>Docker</li>
+          <li><a href="Certficates/Web_Developement.jpg" data-toggle="modal" data-target="#webdevelopment">web development</a> Certification</li>
           <li>Developer program from Accenture</li>
         </ul>
         <hr>
@@ -99,6 +104,50 @@
           Email: chakravarthi1586@gmail.com<br>
           Phone: +91 995-908-1586
         </address>
+        <div>
+          <!-- web developement -->
+          <div class="modal fade" id="webdevelopment" tabindex="-1" role="dialog" aria-labelledby="webdevelopmentLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="modal-body">
+                  <img src="Certficates/Web_Developement.jpg" class="img-fluid" alt="Responsive image">
+                  </div>
+              </div>
+              </div>
+          </div>
+          <!--jenkins-->
+          <div class="modal fade" id="jenkins" tabindex="-1" role="dialog" aria-labelledby="jenkinsLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="modal-body">
+                  <img src="Certficates/Jenkins.jpg" class="img-fluid" alt="Responsive image">
+                  </div>
+              </div>
+              </div>
+          </div>
+          <!-- git modal -->
+          <div class="modal fade" id="git" tabindex="-1" role="dialog" aria-labelledby="gitLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="modal-body">
+                  <img src="Certficates/GitHub.jpg" class="img-fluid" alt="Responsive image">
+                  </div>
+              </div>
+              </div>
+          </div>
+          <!-- python modal -->
+          <div class="modal fade" id="python" tabindex="-1" role="dialog" aria-labelledby="pythonLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="modal-body">
+                  <img src="Certficates/python.jpg" class="img-fluid" alt="Responsive image">
+                  </div>
+              </div>
+              </div>
+          </div>
+      </div>
+
+        <!--side bar div ends-->
       </div>
     </div>
   </div>
